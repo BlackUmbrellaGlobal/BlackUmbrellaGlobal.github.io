@@ -1,0 +1,48 @@
+/*
+Vars
+*/
+$black: #010000;
+$white: #ffffff;
+$lightGray: #e6e6e6;
+$darkGray: #191614;
+$red: #ff1755;
+$goldActive: #FFDC81;
+
+/*
+Mixins
+*/
+
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+    -moz-transform: translateY($e);
+      transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition:$e;
+    -moz-transition:$e;
+      transition:$e;
+}
+
+/* Fonts -
+
+regular 400
+regular 400 Italic
+bold 700
+bold 700 Italic
+
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: $white;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 20vh;
+  background-color: $black;
+}
+
+.container-fluid {
+  line-height: 24px;
+}
