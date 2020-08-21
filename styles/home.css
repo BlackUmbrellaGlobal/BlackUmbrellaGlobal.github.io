@@ -1,0 +1,43 @@
+.chauburji img {
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+}
+#home {
+  align-content: center;
+  display: grid;
+  grid-template-columns: 58% 42%;
+  background: linear-gradient(150deg, #501F77, #191452);
+  color: #fff;
+  justify-content: left;
+}
+.home-text {
+  text-align: left;
+  margin-left: 10vw;
+  grid-column: 1;
+  z-index: 1;
+  margin-top: 5vw;
+}
+.home-text p {
+  opacity: 0.7;
+}
+
+.landing-text {
+  margin-top: 12vh;
+}
+#home hr {
+  margin: 1em 6rem 1em auto;
+}
+.invisible-break {
+  display: none;
+}
+@media screen and (max-width: 799px) {
+  #home {
+    grid-template-columns: 80% 20%;
+  }
+  .invisible-break {
+    display: inline;
+  }
+}
