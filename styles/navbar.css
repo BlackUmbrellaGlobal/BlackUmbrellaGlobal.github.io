@@ -1,65 +1,80 @@
 .navbar {
   position: fixed;
-  z-index: 1;
   width: 100%;
+  z-index: 1;
+  bottom: 0;
+  height: 12vh;
+  background-color: #000;
 }
-nav {
-  padding: 1% 0;
-  transition: top 0.3s;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.navbar-content {
   margin: 0;
-  backdrop-filter: blur(6px)
+  padding: 0;
 }
-
-.navigation-bar {
+nav .item {
+    text-align: center;
+    justify-content: center;
+}
+nav ul {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    align-items: center;
 }
-.navigation-link {
+nav ul li {
+  list-style-type: none;
+  flex: 1;
+}
+nav ul li a {
+  justify-content: center;
+}
+nav ul li svg {
+  height: 5vh;
+  width: auto;
+  padding-top: 2vh;
+}
+#menu {
+  height: 4vh;
+  padding-top: 2.5vh;
+  padding-bottom: .5vh;
+}
+nav a {
+  stroke: #fff;
+  text-decoration: none;
+}
+.red-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30vw;
+  height: 1vh;
+  background-color: #D60000;
+}
+.red-triangle {
+  height: 1vh;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  left: 30vw;
+  transform: scaleY(-1);
+}
+.green-triangle {
+  height: 1vh;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 30vw;
+  transform: scaleY(-1);
+}
+.green-bar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30vw;
+  height: 1vh;
+  background-color: #038B00;
+}
+h5 {
+  margin: 0;
+  text-decoration: none;
   color: #fff;
-  opacity: 0.6;
-  padding: 0 40px;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-}
-.navigation-link:hover {
-    text-decoration: none;
-    color: #FFF;
-    opacity: 1;
-}
-.wk {
-  padding: 5px 40px ;
-}
-.wk img {
-  height: 2.5em;
-  width: 3.5em;
-}
-nav li {
-  font-size: 3vh;
-}
-.project-link {
-  border-right: 1px solid rgba(255, 255, 255, 0.4);
-}
-.contact-link {
-  border-left: 1px solid rgba(255, 255, 255, 0.4);
-}
-@media screen and (max-width: 768px) {
-  .navigation-link {
-    padding: 0 20px;
-    font-size: 2.5vh;
-  }
-  .wk {
-    padding: 5px 20px ;
-  }
-  .wk img {
-    height: 2em;
-    width: 2.8em;
-  }
+  font-weight: normal;
+  font-size: 2vh;
+  padding-top: 1vh;
 }

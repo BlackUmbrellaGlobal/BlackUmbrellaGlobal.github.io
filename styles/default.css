@@ -1,9 +1,9 @@
 html, body {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
-  background-color: #501F77;
+  background-color: #000;
   margin: 0;
 }
 h1 h2 {
@@ -18,16 +18,9 @@ p {
   margin: 0;
 }
 .block {
-  display: flex;
-  height: 100vh;
+  height: 89vh;
   width: 100%;
-  position: relative;
   background-size: cover;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  top: 0;
-  left: 0;
 }
 hr {
     display: block;
@@ -37,14 +30,3 @@ hr {
     margin: 1em auto;
     padding: 0;
   }
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 4vh;
-  }
-  h2 {
-    font-size: 4vh;
-  }
-  p {
-    font-size:2.5vh;
-  }
-}

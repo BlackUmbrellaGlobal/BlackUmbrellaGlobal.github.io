@@ -1,0 +1,56 @@
+#intro {
+  display: block;
+  text-align: left;
+  color: #fff;
+  overflow-x: hidden;
+}
+.logo {
+  height: 12vh;
+  background-color: #000000;
+}
+.logo img {
+  height: 10vh;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.video-position {
+  width: 100vw;
+  height: 50vh;
+  top: 18vh;
+}
+.square-vid {
+  height: 50vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.video-container {
+  width: 89vh;
+  height: 0;
+  position: relative;
+  padding-bottom: 50vh;
+  overflow: hidden;
+  margin: 0;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mission {
+  padding-top: 10vw;
+}
+#intro h2 {
+  padding: 0 6vw;
+  margin: 0 8vw;
+  border-left: 1px solid #FFDC5F;
+  font-weight: normal;
+}

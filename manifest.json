@@ -1,20 +1,20 @@
 {
-  "background_color": "#191452",
-  "description": "Will Kyle's Web Development and UX Design Portfolio.",
+  "background_color": "#D60000",
+  "description": "Black Umbrella Global - Community Resources, Events, and News for Liberation",
   "display": "standalone",
   "icons": [
     {
-      "src": "/img/favicon192.png",
+      "src": "/img/icon192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/img/favicon512.png",
+      "src": "/img/icon512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "name": "Will Kyle",
-  "short_name": "Will Kyle",
+  "name": "Black Umbrella Global",
+  "short_name": "Black Umbrella Global",
   "start_url": "/"
 }
