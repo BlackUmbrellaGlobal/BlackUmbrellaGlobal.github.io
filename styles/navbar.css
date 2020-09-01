@@ -4,7 +4,8 @@
   z-index: 1;
   bottom: 0;
   height: 14vh;
-  background-color: #272626;
+  background-color: #000;
+  border-top: 1px solid #333;
 }
 .navbar-content {
   margin: 0;

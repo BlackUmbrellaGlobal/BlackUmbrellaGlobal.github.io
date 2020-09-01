@@ -1,0 +1,14 @@
+#news iframe {
+  position: static;
+  background-color: none;
+  height: 60vh;
+}
+#widgetmain {
+  width: 100vw;
+}
+#rsswidget {
+  height: 80vh;
+}
+#document p {
+  display: none;
+}

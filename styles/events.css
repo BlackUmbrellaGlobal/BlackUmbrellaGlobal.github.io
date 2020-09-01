@@ -1,3 +1,6 @@
 #events div {
   padding: 5vh 0 40vh;
 }
+#events a {
+  display:none;
+}

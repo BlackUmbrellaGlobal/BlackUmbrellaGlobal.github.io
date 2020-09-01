@@ -1,0 +1,28 @@
+.resource-button {
+  margin: 5vw;
+  background: linear-gradient(#04D600, #039B00);
+  border-radius: 2vw;
+  height: 30vw;
+  display: grid;
+  grid-template-columns: 35vw auto;
+  text-decoration: none;
+}
+
+#resources .resource-button:last-child {
+  margin-bottom: 6vh;
+}
+
+.resource-icon {
+  height: auto;
+  width: 25vw;
+  grid-column: 1;
+  align-self: center;
+  justify-self: center;
+}
+
+.resource-button div {
+  align-content: center;
+}
+#resources p {
+  font-weight: normal;
+}
