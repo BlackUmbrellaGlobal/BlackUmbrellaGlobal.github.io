@@ -30,6 +30,7 @@ html, body {
     height: 90vw;
     width: 90vw;
     border-radius: 10vw;
+    margin: 5vw;
 }
 .description p {
   display: none;
