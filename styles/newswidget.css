@@ -6,13 +6,13 @@ html, body {
 }
 .item {
   display: grid;
-  grid-template-rows: 40vh 14vh 6vh;
+  grid-template-rows: 80vh 28vh 12vh;
 }
 .title {
   grid-row: 2;
 }
 .title a {
-  font-size: 3vh;
+  font-size: 6vh;
   font-weight: bold;
   color: #04C700;
   padding: 3vh;
@@ -21,14 +21,14 @@ html, body {
 .description:first-of-type {
   grid-row: 1;
 }
-.description:first-of-type .tmblr-full {
+.tmblr-full {
   margin: 0;
-  height: 40vh;
-  width: 40vh;
+  height: 80vh;
+  width: 80vh;
 }
-.description:first-of-type .tmblr-full img {
-    height: 40vh;
-    width: 40vh;
+.tmblr-full img {
+    height: 80vh;
+    width: 80vh;
     border-radius: 5vh;
 }
 .description:first-of-type p {
@@ -36,4 +36,7 @@ html, body {
 }
 .description:last-of-type {
  grid-row: 3;
+}
+.pubDt {
+  font-size: 5vh;
 }
