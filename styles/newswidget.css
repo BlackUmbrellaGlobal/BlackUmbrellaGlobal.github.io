@@ -4,3 +4,31 @@ html, body {
   color: #fff;
   margin: 0;
 }
+.item {
+  display: grid;
+  grid-template-rows: 40vh 14vh 6vh;
+}
+.title {
+  font-size: 3vh;
+  font-weight: bold;
+  color: #04C700;
+  padding: 3vh;
+  grid-row: 2;
+}
+.description:first-of-type {
+  grid-row: 1;
+}
+.description:first-of-type .tmblr-full {
+  margin: 0;
+}
+.description:first-of-type .tmblr-full img {
+    height: 40vh;
+    width: 40vh;
+    border-radius: 5vh;
+}
+.description:first-of-type p {
+  display: none;
+}
+.description:last-of-type {
+ grid-row: 3;
+}

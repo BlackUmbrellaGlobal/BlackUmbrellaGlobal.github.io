@@ -11,14 +11,11 @@
   grid-row: 2/5;
   display: grid;
   grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
-
+  justify-content: center;
   padding: 3vh 0;
 }
 .follow-square img {
   height: 8vh;
-  padding: 1vh;
-  border: 1px solid #FFDC5F;
-  border-radius: 3vh;
 }
 .fb {
   grid-column: 2;
