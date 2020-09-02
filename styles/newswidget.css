@@ -9,17 +9,22 @@ html, body {
   grid-template-rows: 40vh 14vh 6vh;
 }
 .title {
+  grid-row: 2;
+}
+.title a {
   font-size: 3vh;
   font-weight: bold;
   color: #04C700;
   padding: 3vh;
-  grid-row: 2;
+  text-decoration: none;
 }
 .description:first-of-type {
   grid-row: 1;
 }
 .description:first-of-type .tmblr-full {
   margin: 0;
+  height: 40vh;
+  width: 40vh;
 }
 .description:first-of-type .tmblr-full img {
     height: 40vh;
