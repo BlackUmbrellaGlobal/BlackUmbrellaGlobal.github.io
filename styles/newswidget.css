@@ -27,11 +27,11 @@ html, body {
   width: 80vh;
 }
 .tmblr-full img {
-    height: 80vh;
-    width: 80vh;
-    border-radius: 5vh;
+    height: 90vw;
+    width: 90vw;
+    border-radius: 10vw;
 }
-.description:first-of-type p {
+.description p {
   display: none;
 }
 .description:last-of-type {
