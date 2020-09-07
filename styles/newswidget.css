@@ -4,9 +4,30 @@ html, body {
   color: #fff;
   margin: 0;
 }
+.content {
+  height: 120vw;
+  overflow: hidden;
+}
+.item-list {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
 .item {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 90vw;
+  height: 120vw;
+  margin: 0 5vw;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+
   display: grid;
-  grid-template-rows: 80vh 28vh 12vh;
+  grid-template-rows: 90vw 20vw 10vw;
 }
 .title {
   grid-row: 2;
@@ -15,7 +36,7 @@ html, body {
   font-size: 6vh;
   font-weight: bold;
   color: #04C700;
-  padding: 3vh;
+  padding: 3vh 10vw;
   text-decoration: none;
 }
 .description:first-of-type {
@@ -23,14 +44,14 @@ html, body {
 }
 .tmblr-full {
   margin: 0;
-  height: 80vh;
-  width: 80vh;
+  height: 90vw;
+  width: 100vw;
 }
 .tmblr-full img {
     height: 90vw;
     width: 90vw;
-    border-radius: 10vw;
-    margin: 5vw;
+    border-radius: 10vw 10vw 0 0;
+    margin: 0 5vw;
 }
 .description p {
   display: none;
@@ -39,5 +60,7 @@ html, body {
  grid-row: 3;
 }
 .pubDt {
-  font-size: 5vh;
+  font-size: 4vh;
+  opacity: .6;
+  padding: 0 10vw;
 }

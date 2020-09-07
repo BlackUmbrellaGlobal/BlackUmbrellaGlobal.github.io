@@ -1,27 +1,13 @@
-.follow-square {
-  background-image: url(../img/Memorial.png);
-  color: #fff;
+.grey-bar {
+  position: relative;
+  bottom: 19vw;
+  left: 62vw;
+  border-radius: 1vh 0 0 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 38vw;
 }
-
-.follow-square .centering-bar {
-  display: grid;
-  grid-template-rows: 5fr 5fr 5fr 5fr 5fr;
-}
-.follow-square .grey-bar {
-  grid-row: 2/5;
-  display: grid;
-  grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
-  justify-content: center;
-  padding: 3vh 0;
-}
-.follow-square img {
-  height: 8vh;
-}
-.fb {
-  grid-column: 2;
-
-}
-.ig {
-  grid-column: 4;
-
+.grey-bar img {
+  height: 16vw;
+  padding: 1vw;
+  width: auto;
 }

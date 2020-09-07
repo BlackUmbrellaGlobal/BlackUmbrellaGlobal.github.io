@@ -2,33 +2,7 @@ var APP_PREFIX = 'WillCKyle_'     // Identifier for this app (this needs to be c
 var VERSION = 'version_01'              // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            // Add URL you want to cache in this list.
-  '/',                     // If you have separate JS/CSS files,
-  '/index.html',
-  '/main.js',
-  '/style.css',
-  '/styles/contact.css',
-  '/styles/default.css',
-  '/styles/home.css',
-  '/styles/navbar.css',
-  '/styles/projects.css',
-  '/img/chauburjiTowerFC.png',
-  '/img/chauburjiTowerThinFCT.png',
-  '/img/copyIcon.png',
-  '/img/favicon.png',
-  '/img/fullpatternsLowres.png',
-  '/img/gmail.png',
-  '/img/Odomo.png',
-  '/img/odomoblacklong.png',
-  '/img/outlook.png',
-  '/img/WK.png',
-  'https://fonts.googleapis.com/css2?family=Raleway&display=swap',
-  'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.cs',
-  'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
-  'https://unpkg.com/aos@next/dist/aos.css',
-  'https://code.jquery.com/jquery-3.5.1.slim.min.js',
-  'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js',
-  'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js',
-  'https://unpkg.com/aos@next/dist/aos.js',          // add path to those files here
+
 ]
 
 // Respond with cached resources

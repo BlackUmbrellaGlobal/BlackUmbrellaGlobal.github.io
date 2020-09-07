@@ -11,7 +11,6 @@
     <link rel="apple-touch-icon" size="512x512" href="img/icon512.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/style.css" />
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -74,7 +73,7 @@
    aria-hidden="true" hidden>
 </a>
 
-  <div class="block" id="intro">
+  <div id="intro">
 
     <div class="logo">
       <img alt="Black Umbrella" src="img/Name.jpg"></img>
@@ -90,19 +89,19 @@
       </div>
     </div>
 
-    <div class="mission">
-      <h2>Mission description goes here briefly stating what Black Umbrella is about.</h2>
-    </div>
-
-  </div>
-
-  <div class="square donate-square">
-    <div class="centering-bar">
-      <div class="grey-bar">
-        <a href="/donate.html" class="green-button">Donate</a>
+    <div class="grey-mission">
+      <div class="mission">
+        <h2>Mission description goes here briefly stating what Black Umbrella is about. It can be a few sentences long.</h2>
       </div>
     </div>
+
+    <div class="intro-btn-container">
+      <a href="/donate.html" class="intro-button">Donate</a>
+    </div>
+
   </div>
+
+  <img class="spacing-img" src="img/Tati.png"></img>
 
   <div id="events">
     <h1 class="section-title">Events</h1>
@@ -110,13 +109,14 @@
     <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
   </div>
 
-  <div class="install-square square">
-    <div class="centering-bar">
-      <div class="grey-bar">
-        <a class="green-button">Add this site to your homescreen</a>
-      </div>
+  <div>
+    <img class="spacing-img" src="img/Shy.png"></img>
+    <div class="grey-bar">
+      <a class="fb" href="https://www.facebook.com/BLKUmbrella"><img alt="Follow on Facebook" src="img/fb.png"></img></a>
+      <a class="ig" href="https://www.instagram.com/blackumbrellaglobal/"><img alt="Follow on Instagram" src="img/ig.png"></img></a>
     </div>
   </div>
+
 
   <div class="block" id="news">
     <h1 class="section-title">News</h1>
@@ -165,16 +165,6 @@
     <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. -->
     <!-- end sw-rss-feed code --></div>
 
-  <div class="follow-square square">
-    <div class="centering-bar">
-      <div class="grey-bar">
-
-        <a class="fb" href="https://www.facebook.com/BLKUmbrella"><img alt="Follow on Facebook" src="img/fb.png"></img></a>
-        <a class="ig" href="https://www.instagram.com/blackumbrellaglobal/"><img alt="Follow on Instagram" src="img/ig.png"></img></a>
-      </div>
-    </div>
-  </div>
-
   <div id="resources">
     <h1 class="section-title">Resources</h1>
     <a href="/housing.html" class="resource-button">
@@ -194,32 +184,14 @@
       <div><h4>Education</h4><p>Brief description goes here.</p></div></a>
   </div>
 
-  <div class="contact-square square">
-    <div class="centering-bar">
-      <div class="grey-bar">
-        <a href="/contact.html" class="green-button">Contact Us</a>
-    </div>
-  </div>
-
-  <div class="final-space">
-    <h2 class="section-title">Black Umbrella Global</h2>
-    <ul>
-      <li><a href="/about.html">About Us</a></li>
-      <li><a href="/donate.html">Donate</a></li>
-    </ul>
-  </div>
-
-  <!--<footer class="ios-popup" data-aos="fade" data-aos-delay="5000" data-aos-duration="1000">
+  <!--<div class="ios-popup button-container">
       <img class="ios-icon" src="img/icon512.png" alt="app icon"></img>
       <img id="close" class="close-ios" src="img/x.png" alt="Close"></img>
       <p class="add-message">Tap <img src="img/iosShare.png" alt="iOS Share button"/> then select</p>
       <p class="add-message add-bold">'Add to home screen'</p>
       <p class="add-message">to install this app.</p>
-  </footer>
+  </div>-->
 
-  <footer class="fixed-bottom footer" id="footer">
-    <button class="add-button"><img class="pwa-icon" src="img/icon512.png" alt="app icon"></img> Add to home screen</button>
-  </footer>-->
 
 
   <script src="/pwa.js"></script>
@@ -227,10 +199,6 @@
     if (navigator.serviceWorker) {
       navigator.serviceWorker.register('/sw.js')
     }
-  </script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
   </script>
 
 
