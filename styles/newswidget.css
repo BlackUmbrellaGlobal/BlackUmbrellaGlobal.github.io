@@ -37,7 +37,7 @@ html, body {
   font-weight: bold;
   color: #04C700;
   width: 100vw;
-  margin-top: 5vw;
+  margin: 5vw;
   text-decoration: none;
 }
 .description:first-of-type {
@@ -63,4 +63,5 @@ html, body {
 .pubDt {
   font-size: 4vh;
   opacity: .6;
+  margin: 0 5vw;
 }
