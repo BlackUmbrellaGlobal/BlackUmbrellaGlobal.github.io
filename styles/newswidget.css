@@ -13,7 +13,7 @@ html, body {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: auto;
   height: 142vw;
   overflow-y: hidden;
 }
