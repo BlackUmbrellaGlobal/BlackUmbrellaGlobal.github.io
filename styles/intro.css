@@ -3,6 +3,7 @@
   text-align: left;
   color: #fff;
   overflow-x: hidden;
+  padding-bottom: 5vh;
 }
 .logo {
   padding: 0 0 1vh;
@@ -75,5 +76,5 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  font-size: 2.5vh;
 }

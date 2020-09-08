@@ -1,6 +1,9 @@
 #resources {
   padding-bottom: 12vh;
 }
+#resources h4 {
+
+}
 .resource-button {
   margin: 5vw;
   background: linear-gradient(#7FED3B, #04AB01);
