@@ -15,6 +15,7 @@ html, body {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   height: 142vw;
+  overflow-y: hidden;
 }
 .item {
   scroll-snap-align: start;
@@ -80,8 +81,8 @@ html, body {
 .item-list::-webkit-scrollbar-button {
   background: white;
   border-style: solid;
-  height: 2vh;
-  width: 2vh;
+  height: 5vh;
+  width: 5vh;
 }
 /* Left */
 ::-webkit-scrollbar-button:horizontal:decrement
