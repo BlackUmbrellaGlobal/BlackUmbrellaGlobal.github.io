@@ -63,5 +63,47 @@ html, body {
 }
 .pubDt {
   font-size: 5vh;
+  opacity: 0.8;
   margin: 0 5vw;
+}
+.item-list::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.item-list::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+.item-list::-webkit-scrollbar-track {
+  background: #1E1E1E;
+}
+.item-list::-webkit-scrollbar-button {
+  background: white;
+  border-style: solid;
+  height: 1vh;
+  width: 1vh;
+}
+/* Left */
+::-webkit-scrollbar-button:horizontal:decrement
+{
+  border-width: 7px 14px 7px 0;
+  border-color: transparent #404040 transparent transparent;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:hover
+{
+  border-color: transparent #505050 transparent transparent;
+}
+
+
+/* Right */
+::-webkit-scrollbar-button:horizontal:increment
+{
+  border-width: 7px 0 7px 14px;
+  border-color: transparent transparent transparent #404040;
+}
+
+::-webkit-scrollbar-button:horizontal:increment:hover
+{
+  border-color: transparent transparent transparent #505050;
 }
