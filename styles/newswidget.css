@@ -5,7 +5,7 @@ html, body {
   margin: 0;
 }
 .content {
-  height: 120vw;
+  height: 130vw;
   overflow: hidden;
 }
 .item-list {
@@ -19,7 +19,7 @@ html, body {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 90vw;
-  height: 120vw;
+  height: 130vw;
   margin: 0 5vw;
   transform-origin: center center;
   transform: scale(1);
@@ -27,7 +27,7 @@ html, body {
   position: relative;
 
   display: grid;
-  grid-template-rows: 90vw 20vw 10vw;
+  grid-template-rows: 90vw 30vw 10vw;
 }
 .title {
   grid-row: 2;
@@ -36,7 +36,8 @@ html, body {
   font-size: 6vh;
   font-weight: bold;
   color: #04C700;
-  padding: 3vh 10vw;
+  width: 100vw;
+  margin-top: 5vw;
   text-decoration: none;
 }
 .description:first-of-type {
@@ -62,5 +63,4 @@ html, body {
 .pubDt {
   font-size: 4vh;
   opacity: .6;
-  padding: 0 10vw;
 }
