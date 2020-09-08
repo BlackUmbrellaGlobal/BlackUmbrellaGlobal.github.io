@@ -31,6 +31,7 @@ html, body {
 }
 .title {
   grid-row: 2;
+  padding: 5vw 0;
 }
 .title a {
   font-size: 6vh;
