@@ -1,13 +1,10 @@
-.events-frame {
-  padding: 0 0 30vh;
-}
 .events-banner {
   z-index: 1;
   width: 100vw;
-  height: 20vh;
+  height: 10vh;
   background-color: black;
   position: relative;
-  bottom: 9vh;
+  bottom: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
