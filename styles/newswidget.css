@@ -62,7 +62,6 @@ html, body {
  grid-row: 3;
 }
 .pubDt {
-  font-size: 4vh;
-  opacity: .6;
+  font-size: 5vh;
   margin: 0 5vw;
 }
