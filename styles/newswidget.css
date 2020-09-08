@@ -5,7 +5,7 @@ html, body {
   margin: 0;
 }
 .content {
-  height: 135vw;
+  height: 145vw;
   overflow: hidden;
 }
 .item-list {
@@ -14,12 +14,13 @@ html, body {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  height: 145vw;
 }
 .item {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 90vw;
-  height: 130vw;
+  height: 140vw;
   margin: 0 5vw;
   transform-origin: center center;
   transform: scale(1);
@@ -27,7 +28,7 @@ html, body {
   position: relative;
 
   display: grid;
-  grid-template-rows: 90vw 30vw 10vw;
+  grid-template-rows: 90vw 30vw 20vw;
 }
 .title {
   grid-row: 2;
@@ -68,11 +69,11 @@ html, body {
 }
 .item-list::-webkit-scrollbar {
   width: 10px;
-  height: 10px;
+  height: 2vh;
 }
 .item-list::-webkit-scrollbar-thumb {
   background: white;
-  border-radius: 10px;
+  border-radius: 2vh;
 }
 .item-list::-webkit-scrollbar-track {
   background: #1E1E1E;
@@ -80,30 +81,19 @@ html, body {
 .item-list::-webkit-scrollbar-button {
   background: white;
   border-style: solid;
-  height: 1vh;
-  width: 1vh;
+  height: 2vh;
+  width: 2vh;
 }
 /* Left */
 ::-webkit-scrollbar-button:horizontal:decrement
 {
-  border-width: 7px 14px 7px 0;
-  border-color: transparent #404040 transparent transparent;
+  border-width: 1vh 2vh 1vh 0;
+  border-color: transparent #000 transparent transparent;
 }
-
-::-webkit-scrollbar-button:horizontal:decrement:hover
-{
-  border-color: transparent #505050 transparent transparent;
-}
-
 
 /* Right */
 ::-webkit-scrollbar-button:horizontal:increment
 {
-  border-width: 7px 0 7px 14px;
-  border-color: transparent transparent transparent #404040;
-}
-
-::-webkit-scrollbar-button:horizontal:increment:hover
-{
-  border-color: transparent transparent transparent #505050;
+  border-width: 1vh 0 1vh 2vh;
+  border-color: transparent transparent transparent #000;
 }
