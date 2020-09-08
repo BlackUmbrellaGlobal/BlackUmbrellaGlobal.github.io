@@ -78,22 +78,3 @@ html, body {
 .item-list::-webkit-scrollbar-track {
   background: #1E1E1E;
 }
-.item-list::-webkit-scrollbar-button {
-  background: white;
-  border-style: solid;
-  height: 5vh;
-  width: 5vh;
-}
-/* Left */
-::-webkit-scrollbar-button:horizontal:decrement
-{
-  border-width: 1vh 2vh 1vh 0;
-  border-color: transparent #000 transparent transparent;
-}
-
-/* Right */
-::-webkit-scrollbar-button:horizontal:increment
-{
-  border-width: 1vh 0 1vh 2vh;
-  border-color: transparent transparent transparent #000;
-}
