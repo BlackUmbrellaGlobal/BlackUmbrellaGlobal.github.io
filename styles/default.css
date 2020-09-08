@@ -53,11 +53,10 @@ hr {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .spacing-img {
+.spacing-img {
     width: 100vw;
-    height: auto;
-  }
-
+    height: 62vw;
+}
 
 .section-title {
   padding: 5vh 5vw 2vh;

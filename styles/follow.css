@@ -1,13 +1,13 @@
 .grey-bar {
   position: relative;
   bottom: 19vw;
-  left: 62vw;
+  left: 64vw;
   border-radius: 1vh 0 0 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 38vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 36vw;
 }
 .grey-bar img {
   height: 16vw;
-  padding: 1vw;
+  padding: 1vw 0 1vw 1vw;
   width: auto;
 }

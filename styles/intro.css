@@ -57,12 +57,14 @@ iframe {
   width: 100vw;
   padding: 3vh 0;
   background-color: #1E1E1E;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
-
+.intro-btns {
+  margin: 5vh 0;
+}
 .intro-button {
   width: 60vw;
-  margin: 8vh 18vw;
+  margin: 4vh 18vw;
   padding: 1vh;
   border-radius: .5vh;
   border: 1px solid #97E534;

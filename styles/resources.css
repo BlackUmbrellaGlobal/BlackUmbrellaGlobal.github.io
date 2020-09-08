@@ -1,6 +1,9 @@
+#resources {
+  padding-bottom: 12vh;
+}
 .resource-button {
   margin: 5vw;
-  background: linear-gradient(#04D600, #039B00);
+  background: linear-gradient(#7FED3B, #04AB01);
   border-radius: 2vw;
   height: 30vw;
   display: grid;
