@@ -15,7 +15,6 @@ html, body {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   height: 142vw;
-  padding: 0 5vw;
 }
 .item {
   scroll-snap-align: start;
