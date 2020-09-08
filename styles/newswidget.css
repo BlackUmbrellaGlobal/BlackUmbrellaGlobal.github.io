@@ -52,7 +52,7 @@ html, body {
 .tmblr-full img {
     height: 90vw;
     width: 90vw;
-    border-radius: 10vw 10vw 0 0;
+    border-radius: 5vw 5vw 0 0;
     margin: 0 5vw;
 }
 .description p {
