@@ -36,8 +36,7 @@
   height: 100%;
 	overflow-y: scroll;
 	overflow-x: visible;
-	transition: left 0.3s ease,
-				      box-shadow 0.3s ease;
+	transition: left 0.3s ease, box-shadow 0.3s ease;
 	z-index: 999;
 }
 
@@ -139,4 +138,7 @@
   .main-menu[aria-expanded="true"] + .backdrop{
     position: fixed;
   }
+}
+nav a {
+  font-weight: normal;
 }

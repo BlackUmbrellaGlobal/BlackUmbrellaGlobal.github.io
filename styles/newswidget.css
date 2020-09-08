@@ -5,7 +5,7 @@ html, body {
   margin: 0;
 }
 .content {
-  height: 145vw;
+  height: 142vw;
   overflow: hidden;
 }
 .item-list {
@@ -14,7 +14,7 @@ html, body {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  height: 145vw;
+  height: 142vw;
 }
 .item {
   scroll-snap-align: start;
@@ -32,14 +32,13 @@ html, body {
 }
 .title {
   grid-row: 2;
-  padding: 5vw 0;
+  padding: 5vw;
 }
 .title a {
   font-size: 6vh;
   font-weight: bold;
   color: #04C700;
   width: 100vw;
-  margin: 5vw;
   text-decoration: none;
 }
 .description:first-of-type {
