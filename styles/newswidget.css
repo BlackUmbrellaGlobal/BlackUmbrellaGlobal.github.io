@@ -15,6 +15,7 @@ html, body {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   height: 142vw;
+  padding: 0 5vw;
 }
 .item {
   scroll-snap-align: start;
@@ -62,7 +63,7 @@ html, body {
  grid-row: 3;
 }
 .pubDt {
-  font-size: 5vh;
+  font-size: 4vh;
   opacity: 0.8;
   margin: 0 5vw;
 }
