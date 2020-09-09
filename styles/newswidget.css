@@ -5,7 +5,7 @@ html, body {
   margin: 0;
 }
 .content {
-  height: 113vw;
+  height: 128vw;
   overflow: hidden;
 }
 .item-list {
@@ -14,14 +14,14 @@ html, body {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: auto;
-  height: 112vw;
+  height: 127vw;
   overflow-y: hidden;
 }
 .item {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 90vw;
-  height: 110vw;
+  height: 125vw;
   margin: 0 5vw;
   transform-origin: center center;
   transform: scale(1);
@@ -29,7 +29,7 @@ html, body {
   position: relative;
 
   display: grid;
-  grid-template-rows: 90vw 10vw 10vw;
+  grid-template-rows: 90vw 25vw 10vw;
 }
 .title {
   grid-row: 2;
