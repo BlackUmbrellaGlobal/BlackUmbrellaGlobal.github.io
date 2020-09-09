@@ -45,3 +45,14 @@
   position: relative;
   bottom: 10vw;
 }
+.swipe {
+  position: relative;
+  bottom: 15vw;
+  color: white;
+  font-style: italic;
+  white-space: pre;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
