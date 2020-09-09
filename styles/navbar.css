@@ -4,7 +4,7 @@
   z-index: 2;
   bottom: 0;
   height: 14vh;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.85);
   backdrop-filter: blur(6px);
   border-top: 1px solid #333;
 }

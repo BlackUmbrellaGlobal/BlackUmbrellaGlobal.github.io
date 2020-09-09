@@ -1,8 +1,14 @@
 #resources {
   padding-bottom: 12vh;
 }
+#resources a div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 #resources h4 {
-
+  margin: 0 5vw;
+  font-size: 3vh;
 }
 .resource-button {
   margin: 5vw;

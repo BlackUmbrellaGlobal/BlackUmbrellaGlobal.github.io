@@ -49,6 +49,7 @@
   position: relative;
   bottom: 15vw;
   color: white;
+  opacity: 0.6;
   font-style: italic;
   white-space: pre;
   display: flex;
