@@ -5,8 +5,9 @@
   position: relative;
   bottom: 20vw;
   background-color: none;
-  height: 145vw;
-  width: 100vw;
+  height: 133vw;
+  width: 90vw;
+  margin: 0 5vw;
 }
 #widgetmain {
   width: 100vw;
