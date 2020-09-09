@@ -36,7 +36,7 @@ html, body {
   padding: 5vw;
 }
 .title a {
-  font-size: 6vh;
+  font-size: 4vh;
   font-weight: bold;
   color: #97E534;
   width: 100vw;
@@ -63,7 +63,7 @@ html, body {
  grid-row: 3;
 }
 .pubDt {
-  font-size: 4vh;
+  font-size: 3vh;
   opacity: 0.8;
   margin: 0 5vw;
 }
