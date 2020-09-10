@@ -4,8 +4,11 @@ html, body {
   color: #fff;
   margin: 0;
 }
+.feed-container {
+  height: 163vw !important;
+}
 .content {
-  height: 143vw !important;
+  height: 163vw !important;
   overflow: hidden;
 }
 .item-list {
@@ -14,14 +17,14 @@ html, body {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: auto;
-  height: 142vw;
+  height: 162vw;
   overflow-y: hidden;
 }
 .item {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 100vw;
-  height: 140vw;
+  height: 160vw;
   margin: 0;
   transform-origin: center center;
   transform: scale(1);
@@ -29,7 +32,7 @@ html, body {
   position: relative;
 
   display: grid;
-  grid-template-rows: 100vw 25vw 15vw;
+  grid-template-rows: 100vw 45vw 15vw;
 }
 .title {
   grid-row: 2;
