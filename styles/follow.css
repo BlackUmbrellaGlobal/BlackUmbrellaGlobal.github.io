@@ -1,12 +1,8 @@
-.grey-bar {
-  position: relative;
-  bottom: 19vw;
-  left: 58vw;
-  border-radius: 1vh 0 0 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 42vw;
+.follow-btns {
+  display: flex;
+  justify-content: center;
 }
-.grey-bar img {
+.intro-btn-container img {
   height: 14vw;
   padding: 2vw 3vw;
   width: auto;

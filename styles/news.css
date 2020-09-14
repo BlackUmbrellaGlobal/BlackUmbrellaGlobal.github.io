@@ -1,7 +1,7 @@
-#news {
+.tumblr-section {
   padding-bottom: 5vh;
 }
-#news iframe {
+.tumblr-section iframe {
   position: relative;
   bottom: 20vw;
   background-color: none;
@@ -9,15 +9,7 @@
   width: 90vw;
   margin: 0 5vw;
 }
-#widgetmain {
-  width: 100vw;
-}
-#rsswidget {
-  height: 100vw;
-}
-#document p {
-  display: none;
-}
+
 .fade {
   position: relative;
   z-index: 1;

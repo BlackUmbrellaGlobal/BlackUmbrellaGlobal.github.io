@@ -5,10 +5,10 @@ html, body {
   margin: 0;
 }
 .feed-container {
-  height: 153vw !important;
+  height: 160vw !important;
 }
 .content {
-  height: 153vw !important;
+  height: 160vw !important;
   overflow: hidden;
 }
 .item-list {
@@ -17,14 +17,14 @@ html, body {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: auto;
-  height: 152vw;
+  height: 159vw;
   overflow-y: hidden;
 }
 .item {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 100vw;
-  height: 151vw;
+  height: 158vw;
   margin: 0;
   transform-origin: center center;
   transform: scale(1);
@@ -32,7 +32,7 @@ html, body {
   position: relative;
 
   display: grid;
-  grid-template-rows: 100vw 36vw 15vw;
+  grid-template-rows: 100vw 36vw 22vw;
 }
 .title {
   grid-row: 2;
@@ -61,13 +61,14 @@ html, body {
     object-fit: cover;
 }
 .description p {
+  display: none;
+}
+.description p:nth-child(-n+2) {
   font-size: 3.5vh;
   opacity: 0.8;
   margin: 0;
   grid-row: 3;
-}
-.description:last-of-type {
- grid-row: 3;
+  display: block;
 }
 .pubDt {
   display: none;
