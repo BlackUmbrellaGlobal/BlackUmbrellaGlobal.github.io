@@ -53,7 +53,7 @@ html, body {
   height: 158vw;
   margin: 0;
   display: grid;
-  grid-template-rows: 100vw 36vw 22vw;
+  grid-template-rows: 100vw 36vw 7vw 15vw;
 }
 .tmblr-full {
   margin: 0;
@@ -69,9 +69,12 @@ html, body {
 }
 .description p {
   display: none;
-  grid-row: 3;
-  grid-column: 1;
+  grid-row: 4;
 }
+.description p:first-child {
+  grid-row: 3;
+}
+
 .description p:nth-child(-n+3) {
   font-size: 3.5vh;
   opacity: 0.8;
