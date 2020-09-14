@@ -70,10 +70,10 @@ html, body {
 .description p {
   display: none;
 }
-.description p:nth-child(1) {
+.description p:nth-child(2) {
   grid-row: 3;
 }
-.description p:nth-child(2) {
+.description p:nth-child(3) {
   grid-row: 4;
 }
 .description p:nth-child(-n+3) {
