@@ -48,6 +48,13 @@ html, body {
 .description:first-of-type {
   grid-row: 1;
 }
+.description {
+  width: 100vw;
+  height: 158vw;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 100vw 36vw 22vw;
+}
 .tmblr-full {
   margin: 0;
   height: 100vw;
