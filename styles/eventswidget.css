@@ -61,15 +61,16 @@ html, body {
     object-fit: cover;
 }
 .description p {
-  display: none;
+  font-size: 3.5vh;
+  opacity: 0.8;
+  margin: 0;
+  grid-row: 3;
 }
 .description:last-of-type {
  grid-row: 3;
 }
 .pubDt {
-  font-size: 3.5vh;
-  opacity: 0.8;
-  margin: 0;
+  display: none;
 }
 .item-list::-webkit-scrollbar {
   width: 10px;

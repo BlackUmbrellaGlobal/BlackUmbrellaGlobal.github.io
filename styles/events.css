@@ -9,3 +9,10 @@
   flex-direction: column;
   justify-content: center;
 }
+#events iframe {
+  transform: scale(1.75);
+}
+.events-frame {
+  text-align: center;
+  padding: 200px 0 220px;
+}

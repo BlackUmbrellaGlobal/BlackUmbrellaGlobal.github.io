@@ -47,10 +47,6 @@
         </a>
       </li>
     </ul>
-    <!--<div class="red-bar"></div>
-    <svg class="red-triangle" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28.5 0L0 28.5V0H28.5Z" fill="#D60000"/></svg>
-    <svg class="green-triangle" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 28.5L28.5 0V28.5H0Z" fill="#038B00"/></svg>
-    <div class="green-bar"></div>-->
   </nav>
 
   <nav id="main-menu" class="main-menu" aria-label="Main menu">
@@ -78,6 +74,12 @@
 
     <div class="logo">
       <img alt="Black Umbrella" src="img/Name.jpg"></img>
+      <div class="color-bar">
+        <div class="red-bar"></div>
+        <svg class="red-triangle" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28.5 0L0 28.5V0H28.5Z" fill="#D60000"/></svg>
+        <svg class="green-triangle" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 28.5L28.5 0V28.5H0Z" fill="#038B00"/></svg>
+        <div class="green-bar"></div>
+      </div>
     </div>
 
     <div class="video-position">
@@ -117,13 +119,56 @@
 
   <div id="events">
     <h1 class="section-title">Events</h1>
-    <div class="events-frame">
-      <div data-tockify-component="calendar" data-tockify-calendar="black.umbrella"></div>
-      <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
-    </div>
-    <div class="events-banner">
-      <a href="/events.html" class="view-all events-view">View all</a>
-    </div>
+    <!--<div class="events-frame"><iframe  src="https://www.eventbrite.com/calendar-widget?eid=120591683973" frameborder="0" height="440" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe></div>
+-->
+    <div class="fade"></div>
+    <!-- start sw-rss-feed code -->
+    <script type="text/javascript">
+    <!--
+    rssfeed_url = new Array();
+    rssfeed_url[0]="https://buevents.tumblr.com/rss";
+    rssfeed_frame_width="230";
+    rssfeed_frame_height="555";
+    rssfeed_scroll="off";
+    rssfeed_scroll_step="6";
+    rssfeed_scroll_bar="on";
+    rssfeed_target="_blank";
+    rssfeed_font_size="12";
+    rssfeed_font_face="";
+    rssfeed_border="off";
+    rssfeed_css_url="https://blackumbrellaglobal.github.io/styles/eventswidget.css";
+    rssfeed_title="off";
+    rssfeed_title_name="";
+    rssfeed_title_bgcolor="#3366ff";
+    rssfeed_title_color="#fff";
+    rssfeed_title_bgimage="";
+    rssfeed_footer="off";
+    rssfeed_footer_name="rss feed";
+    rssfeed_footer_bgcolor="#fff";
+    rssfeed_footer_color="#333";
+    rssfeed_footer_bgimage="";
+    rssfeed_item_title_length="100";
+    rssfeed_item_title_color="#666";
+    rssfeed_item_bgcolor="#fff";
+    rssfeed_item_bgimage="";
+    rssfeed_item_border_bottom="on";
+    rssfeed_item_source_icon="off";
+    rssfeed_item_date="on";
+    rssfeed_item_description="on";
+    rssfeed_item_description_length="5";
+    rssfeed_item_description_color="#666";
+    rssfeed_item_description_link_color="#333";
+    rssfeed_item_description_tag="on";
+    rssfeed_no_items="5";
+    rssfeed_cache = "aaac2624a2dddf3cd6e757750f18c9cb";
+    //-->
+    </script>
+    <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>
+    <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. -->
+    <!-- end sw-rss-feed code -->
+    <p class="swipe">&lt;   Swipe for more   &gt;</p>
+    <a href="https://buevents.tumblr.com/" class="view-all news-view">View all</a>
+
   </div>
 
   <img class="spacing-img" src="img/Shy.png"></img>
@@ -175,7 +220,7 @@
     <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>
     <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. -->
     <!-- end sw-rss-feed code -->
-    <p class="swipe">&lt; Swipe for more &gt;</p>
+    <p class="swipe">&lt;   Swipe for more   &gt;</p>
     <a href="https://blackumbrellaglobal.tumblr.com/" class="view-all news-view">View all</a>
   </div>
 
@@ -183,6 +228,7 @@
 
   <div id="resources">
     <h1 class="section-title">Resources</h1>
+    <p>Black Umbrella provides resources to the community to use for free.
     <a href="/housing.html" class="resource-button">
       <img class="resource-icon" src="img/housing.png"></img>
       <div><h4>Housing</h4></div></a>

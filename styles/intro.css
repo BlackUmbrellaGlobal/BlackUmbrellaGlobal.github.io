@@ -15,7 +15,38 @@
   display: block;
   margin: 0 auto;
 }
-
+.color-bar {
+  width: 100vw;
+  height: 1vh;
+}
+.red-bar {
+  position: absolute;
+  left: 0;
+  width: 30vw;
+  height: 1vh;
+  background-color: #D60000;
+}
+.red-triangle {
+  height: 1vh;
+  width: auto;
+  position: absolute;
+  left: 30vw;
+  transform: scaleY(-1);
+}
+.green-triangle {
+  height: 1vh;
+  width: auto;
+  position: absolute;
+  right: 30vw;
+  transform: scaleY(-1);
+}
+.green-bar {
+  position: absolute;
+  right: 0;
+  width: 30vw;
+  height: 1vh;
+  background-color: #038B00;
+}
 .video-position {
   width: 100vw;
   height: 56.25vw;
