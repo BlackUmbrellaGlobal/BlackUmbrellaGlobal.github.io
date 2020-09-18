@@ -61,6 +61,7 @@
     width: 76vw;
     margin: 0 12vw;
     position: static;
+    overflow-y: hidden;
   }
   .fade {
     display: none;
