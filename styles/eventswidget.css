@@ -97,3 +97,6 @@ html, body {
 .item-list::-webkit-scrollbar-track {
   background: #1E1E1E;
 }
+@media screen and (min-width: 900px) {
+  
+}
