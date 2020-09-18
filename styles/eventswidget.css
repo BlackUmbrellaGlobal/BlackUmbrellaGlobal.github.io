@@ -9,8 +9,7 @@ html, body {
 }
 .content {
   height: 160vw !important;
-  overflow: hidden;
-  overflow-y: hidden;
+  overflow: hidden !important;
 }
 .item-list {
   display: flex;
