@@ -110,7 +110,7 @@ html, body {
   .item {
     width: 76vw;
     height: 98vh;
-    margin: 12vw;
+    margin: 0 12vw;
     grid-template-rows: 64vh 39vh;
     grid-template-columns: 98vh calc(76vw - 98vh);
   }
