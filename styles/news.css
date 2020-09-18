@@ -55,3 +55,20 @@
   text-align: center;
   font-size: 2.2vh;
 }
+@media screen and (min-width: 900px) {
+  .tumblr-section iframe {
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    position: static;
+  }
+  .fade {
+    display: none;
+  }
+  .news-view {
+    position: static;
+  }
+  .swipe {
+    position: static;
+  }
+}
