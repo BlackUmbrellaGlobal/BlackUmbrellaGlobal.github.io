@@ -3,7 +3,6 @@ html, body {
   background-color: #000;
   color: #fff;
   margin: 0;
-  overflow-y: hidden;
 }
 .feed-container {
   height: 153vw !important;
@@ -11,6 +10,7 @@ html, body {
 .content {
   height: 153vw !important;
   overflow: hidden;
+  overflow-y: hidden;
 }
 .item-list {
   display: flex;
