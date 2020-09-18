@@ -57,7 +57,30 @@ hr {
     width: 100vw;
     height: 62vw;
 }
+.spacing-img img {
+  height: 100%;
+  width: 100%;
+}
 
 .section-title {
   padding: 5vh 5vw 2vh;
+}
+@media screen and (min-width: 900px) {
+  .spacing-img {
+      width: 100vw;
+      height: 50vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .spacing-img img {
+    display: none;
+  }
+  .tati {
+    background-image: url("../img/Tati.png");
+  }
+  .shy {
+    background-image: url("../img/Shy.png");
+  }
 }

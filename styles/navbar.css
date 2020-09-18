@@ -49,3 +49,35 @@ h5 {
   font-size: 2vh;
   padding-top: 1vh;
 }
+@media screen and (min-width: 900px) {
+  .navbar {
+    position: fixed;
+    width: 30vw;
+    height: 10vh;
+    z-index: 2;
+    top: 0;
+    margin: 0 0 0 55vw;
+    background-color: rgba(0,0,0,0);
+    backdrop-filter: none;
+    border-top: none;
+  }
+  #menu {
+    height: 2.5vh;
+    width: auto;
+    padding-top: 2.5vh;
+    padding-bottom: 0;
+  }
+  nav ul li svg {
+    height: 3vh;
+    width: auto;
+    padding-top: 2vh;
+  }
+  h5 {
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 2vh;
+    padding-top: .5vh;
+  }
+}
