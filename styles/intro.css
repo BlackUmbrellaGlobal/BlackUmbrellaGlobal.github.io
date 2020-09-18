@@ -112,7 +112,9 @@
   padding: 2vw 6vw;
   width: auto;
 }
-
+.logo .intro-btns {
+  display: none;
+}
 @media screen and (min-width: 900px) {
   .logo {
     position: fixed;
@@ -128,6 +130,7 @@
     display: block;
     margin: 0;
   }
+
   .video-position {
     padding-top: 12vh;
     width: 60vw;
