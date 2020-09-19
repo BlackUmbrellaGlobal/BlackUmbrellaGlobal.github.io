@@ -16,6 +16,7 @@
 .color-bar {
   width: 100vw;
   height: 1vh;
+  display: none;
 }
 .red-bar {
   position: absolute;
@@ -118,6 +119,7 @@
 @media screen and (min-width: 900px) {
   .logo {
     position: fixed;
+    
     width: 100vw;
     top: 0;
     z-index: 1;
