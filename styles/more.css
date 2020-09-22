@@ -1,0 +1,84 @@
+.more {
+  height: 90vh;
+}
+.more h1 {
+  margin-top: 0;
+}
+.more p {
+  margin: 1.5vw 5vw;
+  line-height: 3.5vh;
+}
+.more p,h3 {
+  font-weight: normal;
+}
+.get-involved a {
+  text-decoration: none;
+}
+.involve-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.involve-item svg {
+  height: 5vh;
+  width: auto;
+  margin: 1vh 0 0;
+  stroke: #97E534;
+  stroke-width: 1;
+}
+.involve-item h3 {
+  font-size: 3vh;
+  margin: 1vh 0;
+}
+.involve-item a {
+  padding: 1vh 5vh;
+  border: 1px solid #97E534;
+  border-radius: 1vh;
+  margin: 2vh 0;
+  color: #97E534;
+  width: 40vw;
+  opacity: .8;
+}
+#contact {
+  padding-bottom: 10vh;
+}
+@media screen and (min-width: 900px) {
+  .more {
+    padding-top: 10vh;
+  }
+  #about {
+    height: 100vh;
+  }
+  #contact {
+    padding-bottom: 0;
+  }
+  #about p {
+    margin-right: 50vw;
+    font-size: 3vh;
+    line-height: 4vh;
+  }
+  .get-involved {
+    display: flex;
+    margin: 15vh 10vw 0;
+  }
+  .involve-item a {
+    width: 10vw;
+    padding: 5vh 5vh;
+    margin: 5vh 0;
+  }
+  .involve-item {
+    padding: 0 5vw;
+  }
+  .involve-item p {
+    margin: 0;
+  }
+  .involve-item svg {
+    height: 8vh;
+  }
+  .involve-item h3 {
+    font-size: 4vh;
+    margin: 2vh 0;
+  }
+}

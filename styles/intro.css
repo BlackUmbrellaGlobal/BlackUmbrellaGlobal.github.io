@@ -85,7 +85,6 @@
 .grey-mission {
   width: 100vw;
   padding: 3vh 0;
-  background-color: #1E1E1E;
   margin-top: 5vh;
 }
 .intro-button {
@@ -119,7 +118,7 @@
 @media screen and (min-width: 900px) {
   .logo {
     position: fixed;
-    
+
     width: 100vw;
     top: 0;
     z-index: 1;
@@ -159,7 +158,6 @@
   .grey-mission {
     width: 100vw;
     padding: 6vh 0;
-    background-color: #1E1E1E;
   }
   .intro-btns {
     display: flex;
@@ -178,7 +176,5 @@
     padding: 2vw 2vw;
     width: auto;
   }
-  .grey-mission {
-    background-color: #1E1E1E;
-  }
+
 }
