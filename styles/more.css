@@ -1,4 +1,10 @@
-.more {
+#contact {
+  height: 90vh;
+}
+#getinvolved {
+  height: 90vh;
+}
+#donate {
   height: 90vh;
 }
 .more h1 {
@@ -10,6 +16,11 @@
 }
 .more p,h3 {
   font-weight: normal;
+}
+.about-image {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 3vh;
 }
 .get-involved a {
   text-decoration: none;
@@ -44,6 +55,37 @@
 #contact {
   padding-bottom: 10vh;
 }
+.donate-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  text-align: center;
+}
+.donate-grid h3 {
+  font-size: 3vh;
+}
+.donate-grid h2 {
+  font-size: 4vh;
+}
+.contact-grid {
+  display: grid;
+  grid-template-rows: 4fr 4fr 4fr 4fr;
+  margin: 15vh 5vw;
+  align-items: center;
+  text-align: center;
+}
+.contact-grid h2 {
+  font-weight: normal;
+  font-size: 3vh;
+}
+.contact-icon {
+  height: auto;
+  width: 6vh;
+  stroke: white;
+  margin: 0 auto;
+}
 @media screen and (min-width: 900px) {
   .more {
     padding-top: 10vh;
@@ -54,14 +96,27 @@
   #contact {
     padding-bottom: 0;
   }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+  }
   #about p {
-    margin-right: 50vw;
+    margin-right: 5vw;
+    margin-top: 0;
     font-size: 3vh;
     line-height: 4vh;
+    grid-column: 1;
+  }
+  .about-image {
+    width: 35vw;
+    margin-right: 5vw;
+    height: auto;
+    grid-column: 2;
+    grid-row: 1;
   }
   .get-involved {
     display: flex;
-    margin: 15vh 10vw 0;
+    margin: 12vh 10vw 0;
   }
   .involve-item a {
     width: 10vw;
@@ -80,5 +135,22 @@
   .involve-item h3 {
     font-size: 4vh;
     margin: 2vh 0;
+  }
+  .donate-grid {
+    margin-top: 15vh;
+  }
+  .donate-grid h3 {
+    font-size: 5vh;
+  }
+  .donate-grid h2 {
+    font-size: 6vh;
+  }
+  .contact-grid {
+    grid-template-columns: 12vh calc(90vw - 12vh);
+    grid-template-rows: 2fr 2fr;
+    text-align: left;
+  }
+  .contact-grid h2 {
+    font-size: 5vh;
   }
 }

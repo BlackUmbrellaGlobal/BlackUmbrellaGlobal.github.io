@@ -16,7 +16,7 @@
   padding: 5vh 0;
 }
 #resources .intro-button {
-  margin: 0 auto;
+  margin: 5vh auto;
 }
 .resource-page {
   text-align: left;
@@ -27,8 +27,9 @@
   margin-right: none !important;
 }
 .resource-t {
-  text-align: center;
+  text-align: left;
   margin-bottom: 0;
+  margin-top: 0;
 }
 #resources li {
   margin: 2vh;
@@ -36,20 +37,17 @@
 #resources ul {
   padding-left: 5vw;
 }
-#resources .spacing-img {
+.food-image {
+  width: 100vw;
+  height: auto;
   margin-bottom: 5vh;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 100%;
-  justify-content: center;
-  align-content: center;
-}
-#resources h1,img {
-  grid-column: 1;
-  grid-row: 1;
 }
 @media screen and (min-width: 900px) {
   .resource-t {
     margin-top: 10vh !important;
+  }
+  .food-image {
+    width: 90vw;
+    margin-left: 5vw;
   }
 }

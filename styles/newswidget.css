@@ -96,7 +96,7 @@ html, body {
     width: 100vw;
     height: 98vh;
     margin: 0;
-    grid-template-rows: 60vh 38vh;
+    grid-template-rows: 80vh 18vh;
     grid-template-columns: 108vh calc(100vw - 108vh);
     border-radius: 5vh;
     border: 1px solid #333;
@@ -133,6 +133,9 @@ html, body {
   .description:last-of-type {
     grid-row: 2;
     grid-column: 2;
+    font-size: 7vh;
+  }
+  .pubDt {
     font-size: 7vh;
   }
 }

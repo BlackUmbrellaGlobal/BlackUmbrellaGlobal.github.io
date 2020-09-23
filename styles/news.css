@@ -72,4 +72,7 @@
   .swipe {
     position: static;
   }
+  .tumblr-section {
+    padding-bottom: 15vh;
+  }
 }

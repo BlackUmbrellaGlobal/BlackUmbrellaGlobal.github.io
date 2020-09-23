@@ -52,14 +52,17 @@ h5 {
 @media screen and (min-width: 900px) {
   .navbar {
     position: fixed;
-    width: 30vw;
+    width: 50vw;
     height: 10vh;
     z-index: 2;
     top: 0;
-    left: 68vw;
+    left: 48vw;
     background-color: rgba(0,0,0,0);
     backdrop-filter: none;
     border-top: none;
+  }
+  nav .item {
+    display: flex;
   }
   #menu {
     height: 2.5vh;
