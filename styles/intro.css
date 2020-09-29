@@ -49,7 +49,7 @@
 .video-position {
   width: 100vw;
   height: 56.25vw;
-  top: 24vw;
+  top: 32vw;
 }
 .square-vid {
   height: 56.25vw;
@@ -59,6 +59,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-shadow: 0 0 55px 5px black;
 }
 .video-container {
   width: 100vw;
@@ -118,11 +119,11 @@
 @media screen and (min-width: 900px) {
   .logo {
     position: fixed;
-
+    box-shadow: 0 0 55px 5px black;
     width: 100vw;
     top: 0;
     z-index: 1;
-    background-color: rgba(0,0,0,0.83);
+    background-color: rgba(32,33,36,0.83);
     backdrop-filter: blur(6px);
   }
   .logo img {
@@ -133,7 +134,7 @@
   }
 
   .video-position {
-    padding-top: 12vh;
+    padding-top: 16vh;
     width: 60vw;
     height: 33.75vw;
     margin: 0 auto;
@@ -170,6 +171,7 @@
     padding: 2vw 0;
     border-radius: .5vh;
     font-size: 3vh;
+
   }
   .intro-btn-container img {
     height: 5vh;

@@ -4,9 +4,10 @@
   z-index: 2;
   bottom: 0;
   height: 14vh;
-  background-color: rgba(0,0,0,0.83);
+  background-color: rgba(32,33,36,0.83);
   backdrop-filter: blur(6px);
   border-top: 1px solid #333;
+  box-shadow: 0 0 55px 5px black;
 }
 .navbar-content {
   margin: 0;
@@ -60,6 +61,7 @@ h5 {
     background-color: rgba(0,0,0,0);
     backdrop-filter: none;
     border-top: none;
+    box-shadow: none;
   }
   nav .item {
     display: flex;
