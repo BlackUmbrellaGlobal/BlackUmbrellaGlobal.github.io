@@ -1,12 +1,4 @@
-#contact {
-  height: 90vh;
-}
-#getinvolved {
-  height: 90vh;
-}
-#donate {
-  height: 90vh;
-}
+
 .more h1 {
   margin-top: 0;
 }
@@ -20,7 +12,7 @@
 .about-image {
   width: 100vw;
   height: auto;
-  margin-bottom: 3vh;
+  margin-bottom: 5vh;
 }
 .get-involved a {
   text-decoration: none;
@@ -31,6 +23,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 3vh;
+}
+.involve-item:last-child {
+  margin-bottom: 0;
 }
 .involve-item svg {
   height: 5vh;
@@ -60,25 +56,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20vh;
   text-align: center;
 }
 .donate-grid h3 {
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 .donate-grid h2 {
-  font-size: 4vh;
+  font-size: 2.5vh;
+  color: #97E534;
+}
+.donate-grid .follow-btns {
+  margin: 0;
 }
 .contact-grid {
   display: grid;
   grid-template-rows: 4fr 4fr 4fr 4fr;
-  margin: 15vh 5vw;
+  margin: 0 5vw 15vh;
   align-items: center;
   text-align: center;
 }
 .contact-grid h2 {
   font-weight: normal;
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 .contact-icon {
   height: auto;

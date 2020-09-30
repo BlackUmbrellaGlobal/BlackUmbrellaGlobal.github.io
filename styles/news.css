@@ -1,5 +1,4 @@
 .tumblr-section {
-  padding-bottom: 5vh;
 }
 .tumblr-section iframe {
   position: relative;
@@ -41,7 +40,7 @@
 }
 .news-view {
   position: relative;
-  bottom: 20vw;
+  bottom: 6vh;
 }
 .swipe {
   position: relative;
