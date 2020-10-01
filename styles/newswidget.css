@@ -90,7 +90,8 @@ html, body {
     height: 100vh !important;
   }
   .item-list {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 7fr 7fr 7fr 7fr 7fr 7fr 7fr;
     column-gap: 50%;
