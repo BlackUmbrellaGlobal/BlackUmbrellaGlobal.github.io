@@ -98,35 +98,33 @@ html, body {
   }
   .item:first-of-type {
     grid-area: 1 / 1 / span 2 / span 3;
+    grid-template-rows: 50% 30% 5% 15%;
   }
   .item {
     width: 100%;
     height: 100%;
     grid-area: auto / auto / span 1 / span 2;
     margin: 0;
-    grid-template-rows: 80vh 18vh;
-    grid-template-columns: 108vh calc(100vw - 108vh);
-    border-radius: 5vh;
-    border: 1px solid #333;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    grid-template-rows: 60% 20% 5% 15%;
+    grid-template-columns: 100%;
+    border-radius: 0;
+    border: none;
   }
   .title {
-    grid-row: 1;
-    grid-column: 2
+    grid-row: 2;
+    grid-column: 1;
   }
   .title a {
     font-size: 10vh;
-    width: calc(100vw - 108vh);
+    width: 100%;
   }
   .description:first-of-type {
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
     grid-column: 1;
   }
   .description {
-    width: 100vw;
-    height: 98vh;
+    width: 100%;
+    height: 100%;
   }
   .tmblr-full {
     height: 98vh;
