@@ -1,8 +1,8 @@
 #events iframe {
   height: 150vw;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   #events iframe {
-    height: 60vh;
+    height: 50vw;
   }
 }

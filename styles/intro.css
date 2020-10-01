@@ -116,7 +116,14 @@
 .logo .intro-btns {
   display: none;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
+  #intro {
+    display: flex;
+    padding-bottom: 5vh;
+  }
+  .intro-text {
+    width: 40vw;
+  }
   .logo {
     position: fixed;
     width: 100vw;
@@ -131,7 +138,6 @@
     display: block;
     margin: 0;
   }
-
   .video-position {
     padding-top: 16vh;
     width: 60vw;
@@ -148,26 +154,30 @@
     position: relative;
     padding-bottom: 33.75vw;
   }
+  .mission {
+    padding-top: 16vh;
+  }
   #intro h2 {
-    padding: 0 0 0 5vw;
-    margin: 0 20vw;
+    padding: 0 2.5vw 0;
+    margin: 0 5vw;
+    width: 25vw;
     border-left: 1px solid #97E534;
     font-weight: normal;
-    font-size: 5vh;
+    font-size: 3vh;
   }
   .grey-mission {
-    width: 100vw;
+    width: auto;
     padding: 6vh 0;
   }
   .intro-btns {
     display: flex;
-    width: 62vw;
-    margin: 5vh auto 0;
+    width: 30vw;
+    margin: 0 auto;
   }
   .intro-button {
-    width: 29vw;
+    width: 13vw;
     margin: 0 1vw;
-    padding: 2vw 0;
+    padding: 1.5vw 0;
     border-radius: .5vh;
     font-size: 3vh;
 

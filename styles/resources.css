@@ -2,9 +2,10 @@
   padding-bottom: 16vh;
 }
 #resources p {
-  text-align: center;
+  text-align: left;
   font-size: 1em;
-  opacity: 1;
+  opacity: .8;
+  font-size: 2.5vh;
 }
 #resources a {
   display: flex;
@@ -13,7 +14,7 @@
 #resources svg {
   height: 15vh;
   width: auto;
-  padding: 5vh 0;
+  padding: 0 0 5vh;
 }
 #resources .intro-button {
   margin: 5vh auto;
@@ -42,12 +43,19 @@
   height: auto;
   margin-bottom: 6vh;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .resource-t {
     margin-top: 10vh !important;
   }
   .food-image {
     width: 90vw;
     margin-left: 5vw;
+  }
+  .main-resources p {
+    margin: 1.5vw 20vw 3vw;
+    opacity: 0.8;
+  }
+  #resources {
+    padding-bottom: 5vh;
   }
 }

@@ -60,10 +60,10 @@ hr {
   padding: 6vh 5vw 6vh;
   margin: 0;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .spacing-img {
       width: 100vw;
-      height: 50vh;
+      height: 66vh;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
