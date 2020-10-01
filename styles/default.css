@@ -63,7 +63,7 @@ hr {
 @media screen and (min-width: 600px) {
   .spacing-img {
       width: 100vw;
-      height: 66vh;
+      height: 80vh;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;

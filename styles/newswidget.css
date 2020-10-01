@@ -149,7 +149,7 @@ html, body {
     grid-column: 1;
   }
   .item:first-of-type .pubDt {
-    font-size: 5vh;
+    font-size: 4vh;
   }
   .pubDt {
     font-size: 3vh;

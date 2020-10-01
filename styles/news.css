@@ -56,7 +56,7 @@
 }
 @media screen and (min-width: 600px) {
   .tumblr-section iframe {
-    height: 50vw;
+    height: 45vw;
     width: 90vw;
     margin: 0 5vw;
     position: static;

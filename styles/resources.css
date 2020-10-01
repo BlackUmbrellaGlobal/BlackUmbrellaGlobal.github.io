@@ -43,7 +43,19 @@
   height: auto;
   margin-bottom: 6vh;
 }
+.clothes-img {
+  display: none;
+}
 @media screen and (min-width: 600px) {
+  .clothes-img {
+    display: block;
+    height: 66vh;
+    width: auto;
+  }
+  .resource-frame {
+    display: flex;
+    margin: 0 5vw;
+  }
   .resource-t {
     margin-top: 10vh !important;
   }
@@ -52,10 +64,19 @@
     margin-left: 5vw;
   }
   .main-resources p {
-    margin: 1.5vw 20vw 3vw;
+    margin: 1.5vw 5vw 3vw;
     opacity: 0.8;
   }
   #resources {
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
   }
+  #resources a {
+    display: block;
+    margin-left: 5vw;
+  }
+  #resources .intro-button {
+    margin: 5vh 5vw;
+    width: 16vw;
+  }
+
 }
