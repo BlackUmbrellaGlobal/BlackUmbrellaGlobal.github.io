@@ -128,18 +128,18 @@ html, body {
     height: 100%;
   }
   .tmblr-full {
-    height: 98vh;
-    width: 98vh;
+    width: 100%;
+    height: 100%;
   }
   .tmblr-full img {
-      height: 98vh;
-      width: 98vh;
-      border-radius: 5vh 0 0 5vh;
-      margin-right: 10vh;
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      margin-right: 0;
   }
   .description:last-of-type {
     grid-row: 2;
-    grid-column: 2;
+    grid-column: 1;
     font-size: 7vh;
   }
   .pubDt {
