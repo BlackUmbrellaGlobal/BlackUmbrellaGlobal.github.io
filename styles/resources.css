@@ -44,7 +44,9 @@
   margin-bottom: 6vh;
 }
 .clothes-img {
-  display: none;
+  width: 100vw;
+  height: auto;
+  margin-bottom: 5vh;
 }
 @media screen and (min-width: 600px) {
   .clothes-img {
