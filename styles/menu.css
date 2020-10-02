@@ -31,7 +31,6 @@
 .main-menu {
   position: absolute;
   display: none;
-  right: 20vw;
   top: 0;
   height: 100%;
 	overflow-y: hidden;
@@ -53,7 +52,11 @@
   background: #1a1a1a;
   display: block;
 }
-
+@media screen and (min-width: 600px) {
+  .main-menu ul {
+    width: 30vw;
+  }
+}
 .main-menu a {
   display: block;
   padding: .75em 15px;
@@ -81,7 +84,7 @@
 }
 
 .main-menu img {
-  height: 5vh;
+  height: 3.5vh;
   width: auto;
 }
 
