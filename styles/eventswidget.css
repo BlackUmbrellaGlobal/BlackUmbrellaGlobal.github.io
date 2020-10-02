@@ -33,7 +33,7 @@ html, body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  display: grid;
+  display: grid !important;
   grid-template-rows: 100vw 36vw 22vw;
 }
 .title {
@@ -132,7 +132,7 @@ html, body {
     height: 100%;
     grid-area: auto / auto / span 1 / span 2;
     margin: 0;
-    grid-template-rows: 60% 20% 5% 15%;
+    grid-template-rows: 60% 22% 7% 11%;
     grid-template-columns: 100%;
     border-radius: 0;
     border: none;
