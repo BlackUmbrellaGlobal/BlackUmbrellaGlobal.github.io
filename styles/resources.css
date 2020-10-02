@@ -59,15 +59,17 @@
     margin: 0 5vw;
   }
   .resource-t {
-    margin-top: 10vh !important;
+    margin-top: 5vh !important;
   }
   .food-image {
     width: 90vw;
     margin-left: 5vw;
   }
-  .main-resources p {
+  .home-resource-txt p {
     margin: 1.5vw 5vw 3vw;
+    padding-left: 3vw;
     opacity: 0.8;
+    border-left: 1px solid #97E534;
   }
   #resources {
     padding-bottom: 10vh;

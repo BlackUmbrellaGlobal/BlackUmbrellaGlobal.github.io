@@ -62,7 +62,7 @@
   font-size: 2.5vh;
 }
 .donate-grid h2 {
-  font-size: 2.5vh;
+  font-size: 3.5vh;
   color: #97E534;
 }
 .donate-grid .follow-btns {
@@ -87,17 +87,14 @@
 }
 @media screen and (min-width: 600px) {
   .more {
-    padding-top: 10vh;
-  }
-  #about {
-    height: 100vh;
+    padding-top: 5vh;
   }
   #contact {
     padding-bottom: 0;
   }
   .about-grid {
     display: grid;
-    grid-template-columns: 60vw 40vw;
+    grid-template-columns: 50vw 50vw;
   }
   #about p {
     margin-right: 5vw;
@@ -107,7 +104,7 @@
     grid-column: 1;
   }
   .about-image {
-    width: 35vw;
+    width: 45vw;
     margin-right: 5vw;
     height: auto;
     grid-column: 2;
@@ -115,7 +112,7 @@
   }
   .get-involved {
     display: flex;
-    margin: 12vh 10vw 0;
+    margin: 0 10vw;
   }
   .involve-item a {
     width: 10vw;
@@ -135,14 +132,12 @@
     font-size: 4vh;
     margin: 2vh 0;
   }
-  .donate-grid {
-    margin-top: 15vh;
-  }
+
   .donate-grid h3 {
-    font-size: 5vh;
+    font-size: 4vh;
   }
   .donate-grid h2 {
-    font-size: 6vh;
+    font-size: 5vh;
   }
   .contact-grid {
     grid-template-columns: 12vh calc(90vw - 12vh);
@@ -150,6 +145,6 @@
     text-align: left;
   }
   .contact-grid h2 {
-    font-size: 5vh;
+    font-size: 4vh;
   }
 }
